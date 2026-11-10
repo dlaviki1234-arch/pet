@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С любовью,твоя Ирина ♡</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="stars">✦　✧　♡　✧　✦　♡　✦</div>
+
+    <header>
+        <h1>Columbina ♡</h1>
+        <p>С любовью,твоя Ирина</p>
+    </header>
+
+    <main class="game">
+
+        <section class="pet-area">
+
+            <div class="speech" id="speech">
+                ...Ты пришла ко мне? ♡
+            </div>
+
+            <div class="pet-container" id="pet-container">
+                <div id="hearts"></div>
+
+                <img
+                    src="image/idle.png"
+                    alt="Коломбина"
+                    id="pet"
+                >
+
+            </div>
+
+            <p class="pet-name">Коломбина</p>
+            <p class="pet-status" id="status">
+                Коломбина спокойно сидит...
+            </p>
+
+        </section>
+
+        <section class="controls">
+
+            <h2>Маленькие действия</h2>
+
+            <button id="pet-button">♡ Погладить</button>
+            <button id="talk-button">☁ Поговорить</button>
+            <button id="gift-button">🎁 Подарить цветочек</button>
+            <button id="sleep-button">☾ Уложить спать</button>
+            <button id="wake-button" hidden>☀ Разбудить</button>
+
+        </section>
+
+        <section class="stats">
+
+            <h2>Состояние Коломбины</h2>
+
+            <div class="stat">
+                <span>Настроение ♡</span>
+                <div class="bar">
+                    <div id="mood-bar" class="fill"></div>
+                </div>
+            </div>
+
+            <div class="stat">
+                <span>Дружба ✧</span>
+                <div class="bar">
+                    <div id="friendship-bar" class="fill friendship"></div>
+                </div>
+            </div>
+
+            <p id="friendship-level">Уровень дружбы: 1</p>
+            <p id="gift-count">Подарки: 0</p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        Made with love for Columbina ♡
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
